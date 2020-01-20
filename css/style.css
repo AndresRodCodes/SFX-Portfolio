@@ -19,12 +19,19 @@
 
 .user-links {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: center;
 	width: fit-content;
 }
 
 h1 {
 	font-size: 2vw;
+	padding-left: 12px;
+	font-weight: 100;
+	font-family: 'Abel', sans-serif;
+}
+
+h1:hover {
+	opacity: 60%;
 }
 
 li {
@@ -38,6 +45,10 @@ li {
 	vertical-align: middle;
 	position: relative;
 	z-index: 2;
+}
+
+.menu-container:hover {
+	opacity: 60%;
 }
 
 .bar1,
@@ -84,6 +95,7 @@ li {
 	color: #818181;
 	display: block;
 	transition: 0, 3s;
+	font-family: 'Abel', sans-serif;
 }
 
 .side-nav a:hover {
