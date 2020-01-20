@@ -124,6 +124,12 @@ li {
 	margin-top: 8px;
 	vertical-align: middle;
 	width: 100%;
+	transition: 0.5s;
+	border-radius: 10px;
+}
+
+.column img:hover {
+	transform: scale(1.05);
 }
 
 @media screen and (max-width: 800px) {
