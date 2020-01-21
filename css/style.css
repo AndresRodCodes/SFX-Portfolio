@@ -124,6 +124,7 @@ li {
 	flex-wrap: wrap;
 	padding: 0 4px;
 	justify-content: center;
+	padding-bottom: 20px;
 }
 
 .column {
@@ -164,4 +165,11 @@ li {
 	h1 {
 		font-size: 25px;
 	}
+}
+
+.footer-container {
+	padding: 30px 30px;
+	background-color: black;
+	color: grey;
+	text-align: right;
 }
