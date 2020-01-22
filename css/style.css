@@ -172,11 +172,34 @@ li {
 	h1 {
 		font-size: 25px;
 	}
+
+	.bio-container .bio {
+		padding-top: 20px;
+	}
 }
 
 .footer-container {
 	padding: 30px 30px;
 	background-color: black;
-	color: grey;
 	text-align: right;
+}
+
+.bio-container {
+	
+}
+
+.bio-container .photo {
+	padding-right: 20px;
+}
+
+.bio-container .column {
+	display: flex;
+	align-items: center;
+}
+
+.bio-container .bio {
+	text-align: center;
+	font-size: large;
+	font-family: 'Quicksand', sans-serif;
+
 }
