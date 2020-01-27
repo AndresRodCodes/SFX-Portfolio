@@ -4,14 +4,9 @@
 	box-sizing: border-box;
 }
 
-body {
-	position: relative;
-	padding-bottom: 73px;
-	min-height: 100vh;
-}
-
 .header-container {
 	padding: 1%;
+	padding-top: 25px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -180,7 +175,7 @@ li {
 		font-size: 25px;
 	}
 
-	.bio-container .bio {
+	.bio {
 		padding-top: 20px;
 	}
 
@@ -189,33 +184,28 @@ li {
 	}
 }
 
-.bio-container .row {
-	height: 100%;
-}
-
-.bio-container .contact {
+.contact {
+	padding-top: 25%;
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
+	width: 100%;
 }
 
-.bio-container .contact div {
+.contact div {
 	display: inline-block;
 	padding: 10px;
 }
 
-.bio-container .photo {
+.photo {
 	padding-right: 20px;
+	width: 100%;
 }
 
-.bio-container .column {
-	display: flex;
-	align-items: center;
-}
-
-.bio-container .bio {
+.bio {
 	text-align: center;
 	font-size: large;
 	font-family: 'Quicksand', sans-serif;
+	width: 100%;
 }
 
 button {
@@ -234,14 +224,8 @@ button:hover {
 }
 
 .footer-container {
-	padding: 30px 30px;
+	padding: 40px 30px;
 	background-color: black;
 	text-align: right;
 	color: white;
-}
-
-footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
 }
