@@ -1,6 +1,13 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	padding-bottom: 73px;
+	min-height: 100vh;
 }
 
 .header-container {
@@ -176,16 +183,24 @@ li {
 	.bio-container .bio {
 		padding-top: 20px;
 	}
+
+	.contact p {
+		font-size: 15px;
+	}
 }
 
-.footer-container {
-	padding: 30px 30px;
-	background-color: black;
-	text-align: right;
+.bio-container .row {
+	height: 100%;
 }
 
-.bio-container {
-	
+.bio-container .contact {
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.bio-container .contact div {
+	display: inline-block;
+	padding: 10px;
 }
 
 .bio-container .photo {
@@ -201,5 +216,32 @@ li {
 	text-align: center;
 	font-size: large;
 	font-family: 'Quicksand', sans-serif;
+}
 
+button {
+	background-color: black;
+	color: white;
+	width: 80px;
+	height: 40px;
+	border-radius: 5px;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: transparent;
+	color: black;
+}
+
+.footer-container {
+	padding: 30px 30px;
+	background-color: black;
+	text-align: right;
+	color: white;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
